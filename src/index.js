@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Greeting from "./component/ComponentHello";
+import ContainerHello from "./container/ContainerHello";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Greeting name = "akbar"/>
+    {/*<Greeting name = "akbar"/>*/}
+      <ContainerHello/>
   </React.StrictMode>,
   document.getElementById('root')
 );
