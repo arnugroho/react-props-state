@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Greeting from "./component/ComponentHello";
 import ContainerHello from "./container/ContainerHello";
+import ComponentCount from "./component/ComponentCount";
+import ContainerCount from "./container/ContainerCount";
 
 ReactDOM.render(
   <React.StrictMode>
     {/*<Greeting name = "akbar"/>*/}
-      <ContainerHello/>
+      <ContainerCount/>
   </React.StrictMode>,
   document.getElementById('root')
 );
